@@ -8,20 +8,19 @@ const router = new Router()
 
 homeLink.addEventListener('click', function () {
   router.route()
-  body.classList.remove('hide')
+  
   
 })
 
 universeLink.addEventListener('click', function () {
   router.route()
-  body.classList.add('hide')
+
   
 })
 
 explorationLink.addEventListener('click', function(){
   router.route()
-  body.classList.add('hide')
-  
+ 
  
 })
 
