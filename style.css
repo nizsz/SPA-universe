@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  --color-link: #C4C4CC;
+  --color-title: #E1E1E6;
+  --color-paragraph: #E1E1E6;
+  --bg-image: url('./assets/home-sky.png');
+}
+
+
+.hide {
+  background: none;
+}
+
+body {
+  background: var(--bg-image) ;
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 94.8vh;
+  
+}
+
+body, button {
+  font-family: 'Roboto', sans-serif;
+}
+
+.main {
+  margin-top: 5rem;
+  margin-left:7.2rem ;
+}
+
+nav {
+  display: flex;
+  gap: 3.2rem;
+  align-items: center;
+ 
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--color-link);
+  font-size: 2.1rem;
+  font-weight: 400;
+  line-height: 2.2rem;
+
+}
+
+a:focus{
+  color: white;
+  font-weight: 700;
+  transition: .6s;
+}
+
+.home {
+  display: grid;
+  place-content: center;
+  gap: 2.4rem;
+  height: 100vh;
+  margin-top: -9.5rem;
+}
+
+.home button {
+  border: 2px solid #FFFFFF;
+  border-radius: .5rem;
+  padding: 1.2rem 3.2rem;
+  
+  font-size:1.4rem ;
+  line-height: 2.4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  
+  background: transparent;
+  color: var(--color-title);
+  
+  width: fit-content;
+  justify-self: center;
+
+  cursor: pointer; 
+}
+
+.home button:hover {
+  background: #FFFFFF;
+  color: #02799D;
+  transition: .4s;
+}
+
+.robot {
+  font-size: 7rem;
+  display: grid;
+  justify-content: center;
+
+}
+
+.error main {
+  display: grid;
+  height: 80vh;
+  place-content: center;
+}
+
+
+.exploration img,
+.universe img,
+.error img {
+  position: absolute;
+  width: 100vw;
+  top: 0;
+  height: 100vh;
+  z-index: -1;
+}
+
+.universe main, .exploration main {
+  display: grid;
+  height: 50vh;
+  align-content: center;
+
+  margin-left: 10.2rem;
+}
+
+.home h1, .exploration h1, .universe h1 {
+  color: var(--color-title);
+  font-weight: 700;
+  font-size: 4.8rem;
+}
+
+.exploration p , .universe p{
+  color: var(--color-paragraph);
+  font-size: 1.8rem;
+  line-height: 2.9rem;
+  font-weight: 400;
+
+  width: 64.8rem;
+  opacity: 0.9;
+
+  padding-top: 1.6rem;
+
+  
+
+}
