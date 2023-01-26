@@ -109,6 +109,7 @@ a:focus{
   z-index: -1;
 }
 
+
 .universe main, .exploration main {
   display: grid;
   height: 50vh;
@@ -117,7 +118,7 @@ a:focus{
   margin-left: 10.2rem;
 }
 
-.home h1, .exploration h1, .universe h1 {
+.home h1, .exploration h1, .universe h1, .error h1 {
   color: var(--color-title);
   font-weight: 700;
   font-size: 4.8rem;
@@ -133,7 +134,5 @@ a:focus{
   opacity: 0.9;
 
   padding-top: 1.6rem;
-
-  
 
 }
